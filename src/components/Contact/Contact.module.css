@@ -2,9 +2,10 @@
   display: flex;
   padding: 20px;
   width: 330px;
-  border: 2px solid black;
+  border: 2px solid rgb(241, 212, 166);
   border-radius: 20px;
-  background-color: rgb(229, 250, 145);
+  background-color: rgb(182, 148, 104);
+  box-shadow: 0 6px 8px rgb(243, 222, 182), 0 -2px 1px rgb(242, 222, 184);
 }
 
 .information {
@@ -16,17 +17,20 @@
 }
 
 .btn {
+  
   height: 40px;
   width: 80px;
   margin: auto 0;
   background-color: transparent;
   cursor: pointer;
-  border-radius: 13px;
+  border-radius: 10px;
   transition: 350ms;
+  box-shadow: 0 6px 8px rgb(129, 93, 10), 0 -2px 1px rgb(129, 93, 10);
+
 }
 
 .btn:is(:hover, :focus) {
-  background-color: rgb(70, 255, 94);
+  background-color: rgb(244, 210, 167);
 }
 
 .name {

@@ -4,7 +4,9 @@
   padding: 15px;
   margin: 0 auto;
   border-radius: 15px;
-  background-color: aliceblue;
+  background-color: rgb(199, 172, 136);
+  color: rgb(84, 51, 8);
+  box-shadow: 0 6px 8px rgb(237, 211, 157), 0 -2px 1px rgb(237, 211, 157);
 }
 
 .field {
@@ -16,8 +18,10 @@
 .fieldInput {
   padding: 10px;
   border-radius: 20px;
-  background-color: transparent;
-  margin-bottom: 4px
+  background-color: rgb(199, 172, 136);
+  margin-bottom: 4px;
+  
+  
 }
 
 .error {
@@ -27,10 +31,14 @@
 .divName {
   display: flex;
   flex-direction: column;
+  color: #fff;
+  
+
 }
 
 .field {
   margin-bottom: 10px;
+  
 }
 
 .btn {
@@ -39,8 +47,10 @@
   background-color: transparent;
   cursor: pointer;
   transition: 450ms;
+  background-color:rgb(199, 172, 136);
+  box-shadow: 0 6px 8px rgb(84, 51, 8), 0 -2px 1px rgb(84, 51, 8);
 }
-
 .btn:is(:hover, :focus) {
-  background-color: rgb(192, 236, 126);
+  background-color: rgb(237, 211, 157);
+  color: rgb(84, 51, 8);
 }

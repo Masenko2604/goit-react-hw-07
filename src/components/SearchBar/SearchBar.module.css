@@ -2,11 +2,18 @@
   width: 250px;
   display: block;
   margin: 40px auto 0 auto;
+  color: rgb(255, 228, 196);
 }
 
 .input {
   padding: 10px;
   width: 250px;
   border-radius: 20px;
-  background-color: aliceblue;
+  background-color: rgb(199, 172, 136);
+  color: rgb(155, 115, 63);
+  box-shadow: 0 6px 8px rgb(250, 218, 158), 0 -2px 1px rgb(250, 221, 168);
+}
+.input:is(:hover, :focus) {
+  color: rgb(237, 211, 157);
+  background-color:rgb(155, 115, 63);
 }

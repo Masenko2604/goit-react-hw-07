@@ -33,6 +33,11 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: rgb(199, 172, 136);
+  box-shadow: 0 6px 8px rgb(248, 223, 178), 0 -2px 1px rgb(248, 224, 180);
+  display: flex;
+  justify-content: center;
+ 
 }
 
 button {
@@ -42,12 +47,13 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color:rgb(199, 172, 136);
   cursor: pointer;
   transition: border-color 0.25s;
+  box-shadow: 0 6px 8px rgb(248, 223, 178), 0 -2px 1px rgb(248, 224, 180);
 }
 button:hover {
-  border-color: #646cff;
+  border-color: rgb(190, 151, 78);
 }
 button:focus,
 button:focus-visible {
