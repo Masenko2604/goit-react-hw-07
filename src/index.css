@@ -46,7 +46,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color:rgb(199, 172, 136);
+  background-color:rgb(161, 142, 118);
   cursor: pointer;
   transition: border-color 0.25s;
   box-shadow: 0 6px 8px rgb(248, 223, 178), 0 -2px 1px rgb(248, 224, 180);
