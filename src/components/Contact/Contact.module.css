@@ -1,4 +1,5 @@
 .liststyle {
+  
   display: flex;
   padding: 20px;
   width: 330px;
@@ -6,6 +7,7 @@
   border-radius: 20px;
   background-color: rgb(182, 148, 104);
   box-shadow: 0 6px 8px rgb(243, 222, 182), 0 -2px 1px rgb(242, 222, 184);
+  
 }
 
 .information {
