@@ -4,9 +4,9 @@
   padding: 20px;
   width: 330px;
   border: 2px solid rgb(241, 212, 166);
-  border-radius: 20px;
-  background-color: rgb(186, 153, 110);
-  box-shadow: 0 6px 8px rgb(243, 222, 182), 0 -2px 1px rgb(242, 222, 184);
+  border-radius: 10px;
+  background-color: rgb(185, 163, 152);
+  box-shadow: 0 6px 8px rgb(231, 231, 229), 0 -1px 3px rgb(228, 227, 224);
   
 }
 
@@ -23,16 +23,16 @@
   height: 40px;
   width: 100px;
   margin: auto 0;
-  background-color: transparent;
+  background-color: rgb(89, 87, 85);
   cursor: pointer;
   border-radius: 10px;
   transition: 350ms;
-  box-shadow: 0 6px 8px rgb(94, 61, 8), 0 -2px 1px rgb(129, 93, 10);
+  box-shadow: 0 6px 8px rgb(231, 231, 229), 0 -2px 1px rgb(228, 227, 224);
 
 }
 
 .btn:is(:hover, :focus) {
-  background-color: rgb(244, 210, 167);
+  background-color:rgb(185, 163, 152);
 }
 
 .name {
