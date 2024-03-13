@@ -29,11 +29,10 @@ button {
   font-family: inherit;
   background-color:rgb(255, 255, 255);
   transition: border-color 0.25s;
-  box-shadow: 0 6px 8px rgb(248, 223, 178), 0 -2px 1px rgb(248, 224, 180);
+  box-shadow: 0 6px 8px rgb(248, 246, 244), 0 -2px 1px rgb(248, 247, 245);
+  
 }
-button:hover {
-  border-color: rgb(205, 179, 139);
-}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

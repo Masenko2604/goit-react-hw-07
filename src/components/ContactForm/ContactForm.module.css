@@ -1,13 +1,13 @@
 .form {
   width: 350px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   padding: 15px;
   margin: 0 auto;
   border-radius: 15px;
   background: linear-gradient(141.22deg, rgb(193, 179, 160) 9.4%, rgb(89, 87, 85) 91.91%);
   color: rgb(84, 51, 8);
   box-shadow: 0 6px 8px rgb(231, 231, 229), 0 -2px 1px rgb(228, 227, 224);
-  border: 2px solid rgb(241, 212, 166);
+ 
 }
 
 .field {
