@@ -2,27 +2,23 @@
   width: 250px;
   display: block;
   margin: 40px auto 0 auto;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255); 
   
-}
-.htmlFor {
-  padding-bottom: 8px;
 }
 
 .input {
+  color: rgb(255, 255, 255);
   padding: 10px;
-  width: 250px;
   border-radius: 10px;  
-  background-color:rgb(193, 179, 160);
+  cursor: pointer;
+  transition: 450ms;
+  background-color: rgb(89, 87, 85);
   box-shadow: 0 6px 8px rgb(231, 231, 229), 0 -2px 1px rgb(228, 227, 224);
-   /* border: 2px solid rgb(241, 212, 166); */
-   color: rgb(66, 53, 36);
-   
- 
 }
+
 .input:is(:hover, :focus) {
-  color: rgb(237, 235, 232);
-  background-color:rgb(185, 163, 152);
+  background-color: rgb(255, 255, 255);
+  color: rgb(56, 41, 22);
 }
 
 
